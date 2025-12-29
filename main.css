@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background: url(https://images.unsplash.com/photo-1680399524914-a5e8b97a37e5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.547rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration:  none;
+}
+
+.logo {
+    font-size: 23.5px;
+}
+
+.header-info {
+    margin-top: 3.775rem;
+    width: 600px;
+}
+
+.header-btn {
+    margin-top: 1.675rem;
+}
+
+.header-info h3 {
+    font-size: 3.735rem;
+    font-weight: lighter;
+}
+
+.header-btn input {
+    padding:0.75rem;
+    width: 240px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-btn button {
+    padding:0.75rem;
+    width: 175px;
+    background-color: #00b7ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.about {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.about-con {
+    padding: 0 10rem;
+}
+
+.about-title {
+    color: #00b7ff;
+    font-size: 2.475rem;
+}
+
+.about-desc {
+    color: #808080;
+    margin: 1.557rem;
+}
+
+.about-img {
+    margin: 3rem 0;
+}
+
+.pricing {
+    background-color: #00b7ff;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.pricing-info h3 {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.pricing-info p {
+    margin: 1rem 0;
+}
+
+.pricing-table {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.pricing-box {
+    background-color: white;
+    color: #333;
+    padding: 1rem;
+}
+
+.pricing-box-title {
+    background-color: #e4e4e4;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pricing-box-info {
+    padding: 1rem;
+}
+
+.price-blue {
+    color: #00b7ff;
+    font-size: 4.325rem;
+    font-weight: bold;
+}
+
+.pricing-box-info p {
+    margin: 0.5rem 0;
+}
+
+.pricing-more-info {
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: #14df5b;
+    padding: 1rem;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.clinets {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.clients-title h3 {
+    color: #00b7ff;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.clients-title p {
+    color: #808080;
+    margin: 1rem 0;
+}
+
+.clients-grid {
+    margin-top: 2rem    ;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 1rem;
+    text-align: left;
+}
+
+.cliects-img {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.cliects-img img {
+    width: 20%;
+    border-radius: 100%;
+    margin-right: 1.357rem;
+}
+
+.newlatter {
+    background: url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66?q=80&w=847&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.newslatter-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    color: rgb(255, 255, 255);
+}
+
+.newslatter-title h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.newslatter-title input {
+    padding:0.75rem;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.newslatter-title button {
+    padding:0.75rem;
+    width: 175px;
+    background-color: #00b7ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0097d3;
+    padding: 1rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu li {
+    margin-right: 1rem;
+}
+
+.footer-menu ul li a {
+    text-transform: uppercase;
+    font-size: 16px;
+}
